@@ -177,3 +177,49 @@
     text-align: center;
     padding: 1.2rem;
 }
+
+
+
+
+
+
+
+//gallery
+
+.gallery {
+    display: flex;
+
+
+    &__photo {
+        display: block;
+        width: 100%;
+    }
+}
+
+
+// Overview
+
+.overview {
+    display: flex;
+
+    &__heading {}
+
+    &__stars {
+        margin-right: auto;
+    }
+
+    &__icon-star,
+    &__icon-location {
+        fill: var(--color-primary);
+        width: 1.75rem;
+        height: 1.75rem;
+    }
+
+    &__location {}
+
+    &__rating {}
+
+    &__rating-average {}
+
+    &__rating-count {}
+}
